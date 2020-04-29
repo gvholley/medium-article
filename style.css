@@ -1,0 +1,84 @@
+body {
+background: rgb(240, 240, 240);
+color: rgb (20, 20, 20);
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+line-height: 1.6;
+margin: 0;
+}
+
+h1 {
+font-family: 'Helvetica';
+font-size: 50px;
+color: white;
+}
+
+h2 {
+  font-family: Arial ;
+  font-size: 24px;
+  color: #3D4849;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  text-align: center;
+
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+/* Custom design */
+#banner {
+  background-image: url(https://source.unsplash.com/random/1500x600);
+  padding: 150px 0;
+  text-align: center;
+  color: white;
+}
+
+#banner p {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.link {
+display: block;
+font-size: 24px;
+}
+
+
+.card {
+  padding: 50px;
+  text-align: center;
+}
